@@ -33,8 +33,8 @@ to generate clean CAD models which are then compatible with our annotations.
 
 ### Preliminaries: Download ShapeNet and ScanNet examples
 
-* Download the ScanNet example scene [here](https://files.icg.tugraz.at/f/d7bbbd2d84e345b986fc/?dl=1). Extract it
-to `/data/ScanNet/scans`. Note that by downloading this example data
+* Download the ScanNet example scene [here](https://files.icg.tugraz.at/f/5b1b756a78bb457aafb5/?dl=1). Extract the data
+and copy them to `/data/ScanNet/scans`. Note that by downloading this example data
 you agree to the [ScanNet Terms of Use](https://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf). 
 To download the full ScanNet dataset follow the instructions on the [ScanNet GitHub page](https://github.com/ScanNet/ScanNet).
 
