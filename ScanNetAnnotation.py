@@ -8,11 +8,13 @@ class ScanNetAnnotation(object):
 
 class ObjectAnnotation(object):
     def __init__(self, object_id, category_label, scannet_category_label, view_params, transform3d=None,
-                 transform_dict=None, id_cad=None, catid_cad=None, cad_symmetry='__SYM_NONE', is_in_scan2cad=False):
+                 transform_dict=None, id_cad=None, catid_cad=None, cad_symmetry='__SYM_NONE', is_in_scan2cad=False,
+                 scan2cad_annotation_dict=None):
         self.object_id = object_id
         self.category_label = category_label
         self.view_params = view_params
         self.scannet_category_label = scannet_category_label
+        self.scan2cad_annotation_dict = scan2cad_annotation_dict
 
         self.transform3d = transform3d
         self.transform_dict = transform_dict

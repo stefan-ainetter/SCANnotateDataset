@@ -1,4 +1,4 @@
-# SCANnotate-ScanNet
+# SCANnotateDataset
 CAD model and pose annotations for objects in the ScanNet dataset. Annotations are automatically generated 
 using [scannotate](https://github.com/stefan-ainetter/SCANnotate) and [HOC-Search](https://arxiv.org/abs/2309.06107). 
 The quality of these annotations was verified in several verification passes, 
