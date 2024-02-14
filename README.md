@@ -32,7 +32,6 @@ to generate clean CAD models which are then compatible with our annotations.
 
 
 ### Preliminaries: Download ShapeNet and ScanNet examples
-
 * Download the ScanNet example scene [here](https://files.icg.tugraz.at/f/5b1b756a78bb457aafb5/?dl=1). Extract the data
 and copy them to `/data/ScanNet/scans`. Note that by downloading this example data
 you agree to the [ScanNet Terms of Use](https://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf). 
@@ -42,7 +41,7 @@ To download the full ScanNet dataset follow the instructions on the [ScanNet Git
 on the website. Extract ShapeNetCore.v2.zip to `/data/ShapeNet`.
 
 * Download our annotations for the full ScanNet dataset 
-[here](https://files.icg.tugraz.at/f/249aa5c3418f4c1897ee/?dl=1). Extract the data and copy them to
+[here](https://files.icg.tugraz.at/f/2cc86896b0e4433a81ce/?dl=1). Extract the data and copy them to
 `/data/ScanNet/annotations`.
 
 #### Preprocessing ShapeNet CAD Models
@@ -147,6 +146,13 @@ certain threshold, we assume that the object is symmetric according to the perfo
 <p align="center">
 <img src="figures/example_symmetry_annotation.png" width="80%"/>
 </p>
+
+## Changelog
+***
+### 2024-02-11
+#### Fixed
+- Frame IDs in view parameters sometimes contained the ID ' ', which should actually be ID '0'. Annotation file has been 
+corrected accordingly and is available via the [download link](https://files.icg.tugraz.at/f/2cc86896b0e4433a81ce/?dl=1).
 
 ## Citation
 To create these annotations, we used the CAD model retrieval pipeline from 
