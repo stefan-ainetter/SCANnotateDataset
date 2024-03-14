@@ -172,12 +172,10 @@ Scannotate:
 ```
 HOC-Search:
 ```bibtex
-@misc{ainetter2023hocsearch,
-      title={HOC-Search: Efficient CAD Model and Pose Retrieval from RGB-D Scans}, 
+@inproceedings{ainetter2023hocsearch,
+      title={HOC-Search: Efficient CAD Model and Pose Retrieval From RGB-D Scans}, 
       author={Stefan Ainetter and Sinisa Stekovic and Friedrich Fraundorfer and Vincent Lepetit},
-      year={2023},
-      eprint={2309.06107},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle = {International Conference on 3D Vision (3DV)},
+      year={2024}
 }
 ```
