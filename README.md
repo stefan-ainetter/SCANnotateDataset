@@ -119,7 +119,7 @@ bash visualize_annotations.sh
 
 ## ShapeNet Object Symmetry Annotations
 Automatically generated symmetry tags for all CAD models of considered categories are available for download 
-[here]([https://files.icg.tugraz.at/f/58469ba8edbd419abb6d/?dl=1](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?path=%2FScannotate_Dataset%2FScannotate_ShapeNet_sym&openfile=1141519735)). Symmetry
+[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?path=%2FScannotate_Dataset%2FScannotate_ShapeNet_sym&openfile=1141519735). Symmetry
 tags are saved in the following format:
 ```javascript
 [{
