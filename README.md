@@ -1,6 +1,6 @@
 # SCANnotateDataset
 CAD model and pose annotations for objects in the ScanNet dataset. Annotations are automatically generated 
-using [scannotate](https://github.com/stefan-ainetter/SCANnotate) and [HOC-Search](https://arxiv.org/abs/2309.06107). 
+using [scannotate](https://github.com/stefan-ainetter/SCANnotate) and [HOC-Search](https://github.com/stefan-ainetter/HOC-Search). 
 The quality of these annotations was verified in several verification passes, 
 with manual re-annotations performed for outliers to ensure that final annotations are of high quality. 
 
@@ -157,7 +157,7 @@ corrected accordingly and are available via the [download link](https://cloud.tu
 ## Citation
 To create these annotations, we used the CAD model retrieval pipeline from 
 [scannotate](https://github.com/stefan-ainetter/SCANnotate), but replaced the exhaustive
-CAD retrieval stage with [HOC-Search](https://arxiv.org/abs/2309.06107). 
+CAD retrieval stage with [HOC-Search](https://github.com/stefan-ainetter/HOC-Search). 
 If you use any of the provided code or data, please cite the following works:
 
 Scannotate:
