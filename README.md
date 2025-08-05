@@ -32,7 +32,7 @@ to generate clean CAD models which are then compatible with our annotations.
 
 
 ### Preliminaries: Download ShapeNet and ScanNet examples
-* Download the ScanNet example scene [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6/download?path=%2FScannotate_Dataset%2FScanNet_example&files=scans.zip). Extract the data
+* Download the ScanNet example scene [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Scannotate_Dataset/ScanNet_example). Extract the data
 and copy them to `/data/ScanNet/scans`. Note that by downloading this example data
 you agree to the [ScanNet Terms of Use](https://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf). 
 To download the full ScanNet dataset follow the instructions on the [ScanNet GitHub page](https://github.com/ScanNet/ScanNet).
@@ -41,7 +41,7 @@ To download the full ScanNet dataset follow the instructions on the [ScanNet Git
 on the website. Extract ShapeNetCore.v2.zip to `/data/ShapeNet`.
 
 * Download our annotations for the full ScanNet dataset 
-[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6/download?path=%2FScannotate_Dataset%2FScannotate_Annotations&files=annotations.zip). Extract the data and copy them to
+[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Scannotate_Dataset/Scannotate_Annotations). Extract the data and copy them to
 `/data/ScanNet/annotations`.
 
 #### Preprocessing ShapeNet CAD Models
@@ -77,7 +77,7 @@ pip install scikit-image matplotlib imageio plotly opencv-python open3d trimesh=
 ```
 
 ### Annotations in Scan2CAD data format
-Annotations in scan2cad format are available [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?path=%2FScannotate_Dataset%2FScannotate_scan2cad&openfile=1141519729).
+Annotations in scan2cad format are available [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Scannotate_Dataset/Scannotate_scan2cad).
 The file `full_annotions_scannotate.json` contains `1513` entries, where the field of one entry is described as:
 ```javascript
 [{
@@ -119,7 +119,7 @@ bash visualize_annotations.sh
 
 ## ShapeNet Object Symmetry Annotations
 Automatically generated symmetry tags for all CAD models of considered categories are available for download 
-[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?path=%2FScannotate_Dataset%2FScannotate_ShapeNet_sym&openfile=1141519735). Symmetry
+[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Scannotate_Dataset/Scannotate_ShapeNet_sym). Symmetry
 tags are saved in the following format:
 ```javascript
 [{
@@ -152,7 +152,7 @@ certain threshold, we assume that the object is symmetric according to the perfo
 ### 2024-02-11
 #### Fixed
 - Frame IDs in view parameters sometimes contained the ID ' ', which should actually be ID '0'. Annotation files have been 
-corrected accordingly and are available via the [download link](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6/download?path=%2FScannotate_Dataset%2FScannotate_Annotations&files=annotations.zip).
+corrected accordingly and are available via the [download link](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Scannotate_Dataset/Scannotate_Annotations).
 
 ## Citation
 To create these annotations, we used the CAD model retrieval pipeline from 
